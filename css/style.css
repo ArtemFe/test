@@ -18,11 +18,20 @@
 
 :root{
     --color: #0FB3AF;
+<<<<<<< HEAD
+=======
+    --bg-color: #3C3C3B;
+    --font-family: "Open Sans", sans-serif;
+>>>>>>> 481fe7e (full)
 }
 
 a{
     text-decoration: none;
+<<<<<<< HEAD
     color: #3C3C3B;
+=======
+    color: var(--bg-color);
+>>>>>>> 481fe7e (full)
 }
 
 a.log{
@@ -62,6 +71,7 @@ nav{
     border-radius: 5px;
 }
 
+<<<<<<< HEAD
 .bg-img{
     margin-top: 13px;
     background: url("/img/Group\ 173.png") center center/cover no-repeat;
@@ -93,10 +103,81 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+=======
+.share-bg{
+    background: url("../img/Banner.png") center center/cover no-repeat;
+    height: 1080px;
+    width: 100%;
+}
+
+.share-cont{
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 982px;
+}
+
+.title-share{
+    margin-top: 104px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.share-desc{
+    font-family: var(--font-family);
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.search-btn{
+    margin-top: 28px;
+    padding: 12px 28px;
+    font-weight: 700;
+    color: #fff;
+    background-color: var(--bg-color);
+    border-radius: 5px;
+    border: none;
+}
+
+.review{
+    margin-top: 104px;
+}
+
+.review-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.site-title{
+    text-align: center;
+    width: 1020px;
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--color);
+}
+
+.review-desc{
+    width: 1000px;
+    margin-top: 24px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.cards{
+    margin-top: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+>>>>>>> 481fe7e (full)
 }
 
 .card{
     display: flex;
+<<<<<<< HEAD
     align-items: center;
     flex-direction: column;
 }
@@ -119,3 +200,70 @@ nav{
     color: #3C3C3B;
     margin-bottom: 100px;
 }
+=======
+    flex-direction: column;
+    align-items: center;
+}
+
+.review-icon{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.card-review-desc{
+    font-size: 17px;
+    height: 60px;
+    width: 248px;
+    margin: 20px auto 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+}
+
+.how-work{
+    margin-top: 150px;
+}
+
+.how-sub{
+    margin-top: 20px;
+}
+
+.arrow{
+    margin-left: 386px;
+}
+
+.cards-how{
+    margin-top: 70px;
+}
+
+.card-how{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inv{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.general-tit{
+    display: flex;
+    color: var(--color);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.how-text-desc{
+    width: 400px;
+    font-family: var(--font-family);
+    font-size: 14px;
+    margin-top: 14px;
+}
+
+.how-btn{
+    margin-top: 30px;
+    font-weight: 700;
+}
+>>>>>>> 481fe7e (full)
